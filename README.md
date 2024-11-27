@@ -1,7 +1,8 @@
 # php-crypto
 Criptografia de dados para implementar em models do laravel
 
-php```
+
+
 use Illuminate\Support\Facades\Crypt;
 
 class User extends Model
@@ -35,5 +36,3 @@ class User extends Model
         return $value;
     }
 }
-
-```
